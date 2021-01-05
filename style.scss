@@ -34,7 +34,7 @@ background: linear-gradient(90deg, rgba(255,223,126,0.35) 0%, rgba(71,220,255,0.
     transform: rotateY(180deg);
   }
   &:hover &__back {
-    transform: rotateY(360deg);
+    transform: rotateY(360deg)!important;
   }
   &__container {
     margin: auto;
@@ -155,7 +155,6 @@ background: linear-gradient(90deg, rgba(255,223,126,0.35) 0%, rgba(71,220,255,0.
     }
   }
   &__back {
-    transform: rotateY(180deg);
     &-blackbar {
       position: absolute;
       top: 40px;
