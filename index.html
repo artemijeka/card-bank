@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debit Card</title>
+  <link rel="stylesheet" href="./style.min.css">
+</head>
+
+<body>
+
+  <section class="card__container">
+
+    <div class="card">
+      <div class="card__front">
+        <h4 class="card__front-debit">Debit Card</h4>
+        <h4 class="card__front-bank">Bank Name</h4>
+        <i class="card__front-chip"></i>
+        <h2 class="card__front-number">1234 5678 9012 3456</h2>
+        <h3 class="card__front-valid">
+          <span class="card__front-valid-text">Valid<br/>thru</span>
+          <span class="card__front-valid-date">09/24</span>
+        </h3>
+        <h2 class="card__front-holder">Artem Kuznecov</h2>
+      </div>
+
+      <div class="card__back">
+        <div class="card__back-blackbar"></div>
+        <div class="card__back-ccv">
+          <p class="card__back-ccv-text">Autorized Signature-not valid unless signed</p>
+          <div class="card__back-ccv-whitebar"></div>
+          <h2 class="card__back-ccv-number">123</h2>
+        </div>
+        <p class="card__back-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor laudantium debitis tempora aliquam ipsam
+          voluptate harum numquam, sunt accusamus optio nulla velit voluptatibus porro, reprehenderit expedita, dicta
+          accusantium veniam quis. Atque velit aspernatur itaque provident placeat facere illum quidem ab nulla? Facilis
+          ipsum recusandae aliquam in excepturi inventore ut!
+        </p>
+      </div>
+    </div><!-- /.card -->
+
+
+
+    <!-- <script src="./vanilla-tilt.js"></script> -->
+    <script>
+      // VanillaTilt.init(document.querySelectorAll(".card"), {
+      //   max: 25,
+      //   speed: 400,
+      //   glare: true,   // if it should have a "glare" effect
+      //   "max-glare": 0.5      // the maximum "glare" opacity (1 = 100%, 0.5 = 50%)
+      // });
+    </script>
+</body>
+
+</html>
